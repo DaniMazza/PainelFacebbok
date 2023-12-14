@@ -1,0 +1,90 @@
+body{
+    background-color: #444444;
+    --cor-fundo: #DBC1AC;
+    --cor-icon: #634832;
+}
+
+.Conteiner{
+    display: flex;
+    width: auto;
+    height: 40px;
+    border: 1px solid burlywood;
+    padding: 15px;
+    justify-content: space-between; 
+    padding-right: 40px;
+    background-color: #38220F;
+}
+.facebook{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    /* border: 1px solid wheat; */
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+.Cimage{
+    position: relative;
+}
+.imaage{
+    clip-path: circle(50%);
+    background-image: url("https://static2.bigstockphoto.com/3/1/4/large2/413622674.jpg");
+    display: flex;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.little{
+    z-index: 2;
+    border-radius: 50px;
+    background-color: var(--cor-icon);
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -10px;
+    right: -5px;
+}
+h1{    
+    font-family: 'KlavikaMediumPlain';
+    color:var(--cor-fundo);
+    font-size: 40px;
+    margin: 0px
+
+}
+button{
+    border-radius: 50px;
+    background-color: var(--cor-icon);
+    height: 40px;
+    width: 40px;
+    border: 1px solid burlywood;
+}
+svg{
+   fill: var(--cor-fundo);
+}
+#notificacao{
+    border-radius: 50px;
+    background-color: var(--cor-icon);
+    height: 40px;
+    width: 40px;
+    border: 1px solid burlywood;
+    position: relative;
+}
+span{
+    position: absolute;
+    border-radius: 20px;
+    background-color: #854442;
+    height: 20px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    top: -10px;
+    right: -15px;
+
+}
